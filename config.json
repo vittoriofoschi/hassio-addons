@@ -1,0 +1,30 @@
+{
+    "name": "deCONZ",
+    "version": "2.05.08",
+    "slug": "deconz",
+    "description": "deCONZ by Dresden Elektronik",
+    "arch": ["amd64","armhf"],
+    "url": "https://github.com/marthoc/hassio-deconz",
+    "startup": "system",
+    "boot": "auto",
+    "host-network": true,
+    "devices": ["/dev/ttyUSB0:/dev/ttyUSB0:rwm"],
+    "options": {
+        "web_port": 8080,
+        "websockets_port": 8443,
+        "debug_info": 0,
+        "debug_aps": 0,
+        "debug_zcl": 0,
+        "debug_zdp": 0,
+        "debug_otau": 0
+    },
+    "schema": {
+        "web_port": "port",
+        "websockets_port": "port",
+        "debug_info": "int(0,2)",
+        "debug_aps": "int(0,1)",
+        "debug_zcl": "int(0,1)",
+        "debug_zdp": "int(0,1)",
+        "debug_otau": "int(0,1)"        
+    }
+}
