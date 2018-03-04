@@ -10,9 +10,9 @@ HASSIO_DEBUG_OTAU="$(jq --raw-output '.debug_otau' $CONFIG_PATH)"
 HASSIO_DECONZ_WEB_PORT="$(jq --raw-output '.web_port' $CONFIG_PATH)"
 HASSIO_DECONZ_WS_PORT="$(jq --raw-output '.websockets_port' $CONFIG_PATH)"
 
-echo "Starting deCONZ Hass.io Addon..."
-echo "Web UI port: $HASSIO_DECONZ_WEB_PORT"
-echo "Websockets port: $HASSIO_DECONZ_WS_PORT"
+echo "[Hass.io] Starting deCONZ Hass.io Addon..."
+echo "[Hass.io] Web UI port: $HASSIO_DECONZ_WEB_PORT"
+echo "[Hass.io] Websockets port: $HASSIO_DECONZ_WS_PORT"
 
 /usr/bin/deCONZ \
     -platform minimal \
