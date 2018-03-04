@@ -13,9 +13,12 @@ COPY run.sh /
 RUN chmod +x /run.sh
 
 # Create directory for persistent Hass.io config data
-# Create deCONZ user, set home dir, run as user "deconz"
-# This is a workaround to allow ZigBee network data to persist in /data
-RUN chown root:root /usr/bin/deCONZ*
+# Change root's home dir to /data; workaround to persist ZigBee network data
+RUN mkdir /data && \
+    usermod -d /data root && \
+    #sed -i 's/\/root/\/data' /etc/passwd && \
+    chown root:root /usr/bin/deCONZ*
+VOLUME [ "/data" ]
 
 # Hass.io-specific labels
 LABEL io.hass.version="2.05.08" \ 
