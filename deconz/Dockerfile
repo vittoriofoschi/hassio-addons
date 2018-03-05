@@ -1,22 +1,14 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-# Install jq for config parsing
-RUN apt-get update && \
-    apt-get install -y \
-    jq && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
-
 # Add Hass.io-specific start script
 COPY run.sh /
 RUN chmod +x /run.sh
 
 # Create directory for persistent Hass.io config data
-# Change root's home dir to /data; workaround to persist ZigBee network data
+# Workaround to persist ZigBee network data: change root's home dir to /data
 RUN mkdir /data && \
-    usermod -d /data root && \
-    #sed -i 's/\/root/\/data' /etc/passwd && \
+    sed -i 's/\/root/\/data/' /etc/passwd && \
     chown root:root /usr/bin/deCONZ*
 VOLUME [ "/data" ]
 
