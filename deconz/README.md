@@ -1,7 +1,5 @@
 # deCONZ
 
-Current deCONZ version: **2.05.08**
-
 After installing and starting this addon in Hass.io, access the deCONZ WebUIs to add ZigBee devices:
 
 - Wireless Light Control at http://hassio.local:[web_port]
