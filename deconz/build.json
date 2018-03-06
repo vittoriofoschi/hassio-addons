@@ -1,6 +1,0 @@
-{
-    "build_from": {
-      "amd64": "marthoc/deconz:amd64",
-      "armhf": "marthoc/deconz:armhf"
-    }
-}

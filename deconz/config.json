@@ -1,6 +1,6 @@
 {
     "name": "deCONZ",
-    "version": "1.02",
+    "version": "2.05.10",
     "slug": "deconz",
     "description": "Control a ZigBee network with Conbee or RaspBee by Dresden Elektronik",
     "arch": ["amd64","armhf"],
@@ -26,5 +26,6 @@
         "debug_zcl": "int(0,1)",
         "debug_zdp": "int(0,1)",
         "debug_otau": "int(0,1)"        
-    }
+    },
+    "image": "marthoc/hassio-addon-deconz-{arch}"
 }

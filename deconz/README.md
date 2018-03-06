@@ -1,5 +1,7 @@
 # deCONZ
 
+Add-on to allow Home Assistant to control a ZigBee network with Conbee or RaspBee hardware by Dresden Elektronik.
+
 After installing and starting this addon in Hass.io, access the deCONZ WebUIs to add ZigBee devices:
 
 - Wireless Light Control at http://hassio.local:[web_port]
@@ -7,3 +9,5 @@ After installing and starting this addon in Hass.io, access the deCONZ WebUIs to
 - Phoscon at http://hassio.local:[web_port]/pwa
 
 Configure Home Assistant's deCONZ component from the Overview page (if `discovery:` is enabled in configuration.yaml, or, if not, by adding `deconz:` to configuration.yaml and restarting Home Assistant).
+
+Raise any issues with this Add-on at https://github.com/marthoc/hassio-addons.
