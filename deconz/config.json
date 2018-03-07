@@ -7,7 +7,7 @@
     "url": "https://github.com/marthoc/hassio-addons",
     "startup": "services",
     "boot": "auto",
-    "webui": "http://hassio.local:8080/pwa",
+    "webui": "http://[HOST]:[PORT:8080]/pwa",
     "host_network": true,
     "auto_uart": true,
     "options": {
