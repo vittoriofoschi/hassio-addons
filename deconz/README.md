@@ -28,12 +28,6 @@ After installing and starting this addon in Hass.io, access the deCONZ WebUIs to
 
 If `discovery:` is enabled in configuration.yaml, navigate to the Overview page after starting this Add-on to configure the deCONZ component.
 
-If `discovery:` is not enabled, add the following to configuration.yaml:  
-`deconz:`  
-  `host: 127.0.0.1`  
-
-Restart Home Assistant and navigate to the Overview page to configure the deCONZ component.
-
-For more information about the deCONZ component, see: https://home-assistant.io/components/deconz/.
+If `discovery:` is not enabled, follow these instructions to configure the deCONZ component: https://home-assistant.io/components/deconz/.
 
 Raise any issues with this Add-on at https://github.com/marthoc/hassio-addons.
