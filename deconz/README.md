@@ -30,7 +30,7 @@ If `discovery:` is enabled in configuration.yaml, navigate to the Overview page 
 
 If `discovery:` is not enabled, add the following to configuration.yaml:  
 `deconz:`  
-`  host: 127.0.0.1`  
+  `host: 127.0.0.1`  
 
 Restart Home Assistant and navigate to the Overview page to configure the deCONZ component.
 
