@@ -23,7 +23,7 @@ Raise any issues with this Add-on at https://github.com/marthoc/hassio-addons.
 ## Important!!
 
 To migrate deCONZ to Hass.io and this Add-on (or before uninstalling/reinstalling this Add-on), backup your deCONZ config:  
-1. Start this Add-on.
+1. Start this Add-on.  
 2. Log into the WebUI, click `Menu` and then `Settings`.  
 3. Click `Show Advanced Settings`.  
 4. Under `Gateway Backup` click `Save Configuration`.  
@@ -31,7 +31,7 @@ To migrate deCONZ to Hass.io and this Add-on (or before uninstalling/reinstallin
 After moving your Conbee/Raspbee hardware to Hass.io (or reinstalling), restore your deCONZ config:  
 1. Log into the WebUI, click `Menu` and then `Settings`.  
 2. Click `Show Advanced Settings`.  
-3. Under `Gateway Backup` click `Load Configuration` and select your backup file.
+3. Under `Gateway Backup` click `Load Configuration` and select your backup file.  
 4. Restart this Add-on.
 
 _You must perform these steps or your Light and Group names and other data will be lost!_ (However, your ZigBee devices will remain paired to your Conbee or RaspBee hardware.)
