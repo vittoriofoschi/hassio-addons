@@ -1,6 +1,7 @@
-## marthoc Hass.io Add-ons
+# marthoc Hass.io Add-ons
 
 To install the Add-ons in this repository in Hass.io:
+
 1. Open the **Hass.io** menu.
 2. Click **ADD-ON STORE**.
 3. Enter this URL in the **Add new repository by URL** box: https://github.com/marthoc/hassio-addons.
