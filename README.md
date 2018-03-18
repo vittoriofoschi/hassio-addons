@@ -1,5 +1,13 @@
 # marthoc Hass.io Add-ons
 
+## Available Add-ons
+
+|Add-on|Description|
+|------|-----------|
+|**deCONZ**|Control a ZigBee network with Conbee or RaspBee by Dresden Elektronik.|
+
+## Installation
+
 To install the Add-ons in this repository in Hass.io:
 
 1. Open the **Hass.io** menu.

@@ -22,6 +22,12 @@ Raise any issues with this Add-on at https://github.com/marthoc/hassio-addons.
 
 ## Important!!
 
+This Add-on's version number tracks deCONZ releases from Dresden Elektronik; changes to this Add-on's base image and settings may be made between deCONZ releases and incorporated when a new deCONZ version is released. A list of important/relevant changes is available at: https://github.com/marthoc/hassio-addons/blob/master/deconz/CHANGELOG.md.
+
+Use a 2.5A power supply for your Raspberry Pi 3! Strange behaviour with this Add-on may otherwise result.
+
+## Migrating to this Add-on
+
 To migrate deCONZ to Hass.io and this Add-on (or before uninstalling/reinstalling this Add-on), backup your deCONZ config:  
 1. Log into the deCONZ WebUI, click `Menu` and then `Settings`.  
 2. Click `Show Advanced Settings`.  
