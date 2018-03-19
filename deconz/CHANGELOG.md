@@ -1,5 +1,9 @@
 # Changelog
 
+## **2.05.15** - 2018-03-19
+### Changed
+- Bump deCONZ to 2.05.15.
+
 ## **2.05.14** - 2018-03-18
 ### Changed
 - Bump deCONZ to 2.05.14.
