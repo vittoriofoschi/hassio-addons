@@ -1,5 +1,10 @@
 # Changelog
 
+## **2.05.25** - 2018-05-06
+### Changed
+- Bump deCONZ to 2.05.25.
+- Bump tini to 0.18.0.
+
 ## **2.05.23** - 2018-04-25
 ### Changed
 - Bump deCONZ to 2.05.23.
