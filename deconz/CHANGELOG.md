@@ -1,5 +1,9 @@
 # Changelog
 
+## **2.05.31** - 2018-07-02
+### Changed
+- Bump deCONZ to 2.05.31.
+
 ## **2.05.30** - 2018-06-18
 ### Changed
 - Bump deCONZ to 2.05.30.
