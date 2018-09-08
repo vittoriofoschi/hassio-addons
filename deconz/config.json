@@ -3,7 +3,7 @@
     "version": "2.05.35",
     "slug": "deconz",
     "description": "Control a ZigBee network with Conbee or RaspBee by Dresden Elektronik",
-    "arch": ["amd64","armhf","arch64"],
+    "arch": ["amd64","armhf","aarch64"],
     "url": "https://github.com/vittoriofoschi/hassio-addons",
     "startup": "initialize",
     "boot": "auto",
