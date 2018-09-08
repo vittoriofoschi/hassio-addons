@@ -4,7 +4,7 @@
     "slug": "deconz",
     "description": "Control a ZigBee network with Conbee or RaspBee by Dresden Elektronik",
     "arch": ["amd64","armhf","arch64"],
-    "url": "https://github.com/marthoc/hassio-addons",
+    "url": "https://github.com/vittoriofoschi/hassio-addons",
     "startup": "initialize",
     "boot": "auto",
     "webui": "http://[HOST]:[PORT:8080]",
